@@ -5,4 +5,6 @@
   (lib (name "PMW3360DM")(type "KiCad")(uri "${KIPRJMOD}/parts library/PMW3360DM.pretty")(options "")(descr ""))
   (lib (name "SOT95P282X130-5N")(type "KiCad")(uri "${KIPRJMOD}/parts library/SOT95P282X130-5N.pretty")(options "")(descr ""))
   (lib (name "SOT95P280X100-5N")(type "KiCad")(uri "${KIPRJMOD}/parts library/SOT95P280X100-5N.pretty")(options "")(descr ""))
+  (lib (name "Hole")(type "KiCad")(uri "${KIPRJMOD}/Hole.pretty")(options "")(descr ""))
+  (lib (name "PinHeader")(type "KiCad")(uri "${KIPRJMOD}/PinHeader.pretty")(options "")(descr ""))
 )

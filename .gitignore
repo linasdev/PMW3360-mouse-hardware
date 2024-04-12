@@ -1,5 +1,37 @@
-/mouse_hardware-backups
-/#auto_saved_files#
-~mouse_hardware.kicad_sch.lck
-_autosave-mouse_hardware.kicad_sch
-mouse_hardware.kicad_sch-bak
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
+
+# KiCAD JLCPCB tools
+jlcpcb/**
+!jlcpcb/project.db
+
+# KiCAD lock files
+*.kicad_sch.lck
+*.kicad_pcb.lck
